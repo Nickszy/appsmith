@@ -1,0 +1,33 @@
+{
+  "gitSyncId": "67dff8e7c5a65e3ab6c4ffb1_277177ab-a91f-4537-b554-1dd013cdb2fa",
+  "unpublishedPage": {
+    "customSlug": "detail",
+    "isHidden": true,
+    "layouts": [
+      {
+        "dsl": {
+          "backgroundColor": "none",
+          "bottomRow": 380,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "minHeight": 780,
+          "parentColumnSpace": 1,
+          "parentRowSpace": 1,
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "snapRows": 76,
+          "topRow": 0,
+          "type": "CANVAS_WIDGET",
+          "version": 92,
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
+      }
+    ],
+    "name": "研报详情",
+    "slug": ""
+  }
+}

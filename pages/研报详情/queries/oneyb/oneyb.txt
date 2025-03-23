@@ -1,0 +1,4 @@
+SELECT *
+from ifindyb
+WHERE
+seq = {{ appsmith.store.seq }}
