@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{ oneyb.data[0]['F006V_YB003'] === '国泰君安' || oneyb.data[0]['F006V_YB003'] === '中信证券' ? true : false }}",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6mpnqzap98",
+  "leftColumn": 55,
+  "minWidth": 120,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onClick": "{{navigateTo('http://154.85.57.45/yb/' + oneyb.data[0][\"DECLAREDATE\"].replace(/-/g, \"\") + '/' + oneyb.data[0][\"F012V_YB003\"] + '.pdf?user=OmNweXM6Ojo6Ojo6Ojo2NTI4MDE6MTc0Mjc5MDc1MTo6Ojo4NjQwMDo6cGF6cV96bnR5MDAyMzE%3D&ticket=608ba05be83cc1e80ab75578691a2d00&source=cGF6cV96bnR5&fname=a0efbec2dd73d2544f62e2fda25d533e.pdf', {}, 'NEW_WINDOW');}}",
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
+  "parentColumnSpace": 11.853759765625,
+  "parentId": "kporru22n3",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "text": "下载",
+  "topRow": 4,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "qto0dgq560",
+  "widgetName": "Button1"
+}
