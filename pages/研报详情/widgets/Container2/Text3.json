@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 27,
+  "bottomRow": 20,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 3,
   "mobileTopRow": 19,
   "needsErrorInfo": false,
-  "originalBottomRow": 31,
-  "originalTopRow": 16,
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
   "overflow": "NONE",
   "parentColumnSpace": 12.263671875,
   "parentId": "kporru22n3",
@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 50,
   "shouldTruncate": false,
-  "text": "{{oneyb.data[0][\"F010V_YB003\"]}}",
+  "text": "{{ oneyb.data[0][\"F010V_YB003\"] ? oneyb.data[0][\"F010V_YB003\"] : \"暂无摘要\" }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 16,

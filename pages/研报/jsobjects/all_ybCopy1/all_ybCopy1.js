@@ -1,7 +1,9 @@
 export default {
 	data_tableonRowSelected() {
 		// 将选中的行的 SEQ 值存入 appsmith.store
-		const selectedSeq = SelectQuery.data[0]["SEQ"];
+		const selectedSeq = data_tableCopy1.selectedRow["SEQ"];
 		storeValue("seq", selectedSeq);
+		console.log(selectedSeq);
+		console.log(appsmith.store["seq"]);
 	}
 }

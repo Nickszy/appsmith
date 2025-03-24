@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationDetail": {
     "navigationSetting": {
       "colorStyle": "light",
@@ -36,6 +39,9 @@
       "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedApplicationDetail": {
     "navigationSetting": {
       "colorStyle": "light",

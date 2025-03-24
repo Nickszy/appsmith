@@ -34,8 +34,8 @@
     "F006V_YB003",
     "F007V_YB003",
     "TITLE",
-    "hangye1",
     "URL_YB003",
+    "hangye1",
     "DECLAREDATE",
     "hangye2",
     "hangye3",
@@ -45,11 +45,11 @@
     "SEQ",
     "RTIME"
   ],
-  "columnUpdatedAt": 1742739771365,
+  "columnUpdatedAt": 1742777572245,
   "columnWidthMap": {
     "F006V_YB003": 127,
     "F007V_YB003": 185,
-    "TITLE": 540,
+    "TITLE": 504,
     "URL_YB003": 153,
     "hangye1": 136
   },
@@ -117,9 +117,16 @@
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.URL_YB003.allowCellWrapping"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
   "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
@@ -140,6 +147,7 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
+  "onPageChange": "{{Query1.run()}}",
   "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumnId": "RTIME",
@@ -351,7 +359,7 @@
     },
     "URL_YB003": {
       "alias": "URL_YB003",
-      "allowCellWrapping": false,
+      "allowCellWrapping": "",
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "url",

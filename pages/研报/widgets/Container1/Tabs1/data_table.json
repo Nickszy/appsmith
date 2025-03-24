@@ -49,7 +49,7 @@
     "code": 136
   },
   "defaultPageSize": 0,
-  "defaultSelectedRowIndex": "0",
+  "defaultSelectedRowIndex": "",
   "delimiter": ",",
   "derivedColumns": {
     "customColumn1": {
@@ -178,7 +178,7 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "onPageChange": "{{SelectQuery.run()}}",
-  "onRowSelected": "{{JSObject1.data_tableonRowSelected();\nnavigateTo('研报详情', {}, 'SAME_WINDOW');}}",
+  "onRowSelected": "{{all_yb.data_tableonRowSelected();\nnavigateTo('研报详情', {}, 'NEW_WINDOW');}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
   "parentColumnSpace": 16.3125,

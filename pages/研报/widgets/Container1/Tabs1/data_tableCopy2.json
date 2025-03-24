@@ -178,7 +178,7 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "onPageChange": "{{SelectQuery.run()}}",
-  "onRowSelected": "{{JSObject1.data_tableonRowSelected();\nnavigateTo('研报详情', {}, 'SAME_WINDOW');}}",
+  "onRowSelected": "{{all_ybCopy2.data_tableonRowSelected();\nnavigateTo('研报详情', {}, 'SAME_WINDOW');}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
   "parentColumnSpace": 16.3125,
