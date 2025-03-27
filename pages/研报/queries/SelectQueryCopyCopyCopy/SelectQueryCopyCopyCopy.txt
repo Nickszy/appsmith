@@ -1,6 +1,6 @@
 SELECT * FROM ifindyb
 where
-hangye1 = "美股研究"
+F006V_YB003 = "中信建投证券"
 ORDER BY DECLAREDATE {{data_table.sortOrder.order || "DESC"}}
 LIMIT {{data_table.pageSize}}
 OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

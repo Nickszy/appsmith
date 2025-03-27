@@ -46,7 +46,10 @@
   },
   "columnUpdatedAt": 1742819330889,
   "columnWidthMap": {
-    "TITLE": 419,
+    "F006V_YB003": 92,
+    "F007V_YB003": 72,
+    "F009N_YB003": 65,
+    "TITLE": 219,
     "code": 136
   },
   "defaultPageSize": 0,

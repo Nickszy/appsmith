@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 87,
+  "bottomRow": 88,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 780,
+      "bottomRow": 790,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 780,
+      "bottomRow": 790,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -102,7 +102,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 780,
+      "bottomRow": 790,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -138,7 +138,7 @@
       "responsiveBehavior": "fill",
       "rightColumn": 1268,
       "tabId": "tab4p0vshpol2",
-      "tabName": "期货报告",
+      "tabName": "行业报告",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -147,7 +147,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 780,
+      "bottomRow": 790,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -183,7 +183,7 @@
       "responsiveBehavior": "fill",
       "rightColumn": 1268,
       "tabId": "tab1fuc5cra9j",
-      "tabName": "行业报告",
+      "tabName": "美股研究",
       "topRow": 1,
       "type": "CANVAS_WIDGET",
       "version": 1,
@@ -219,7 +219,7 @@
   "mobileRightColumn": 3,
   "mobileTopRow": 5,
   "needsErrorInfo": false,
-  "originalBottomRow": 87,
+  "originalBottomRow": 88,
   "originalTopRow": 5,
   "parentColumnSpace": 19.8125,
   "parentId": "59rw5mx0bq",
@@ -233,6 +233,7 @@
     "tab1": {
       "id": "tab1",
       "index": 0,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "全部报告",
       "positioning": "vertical",
@@ -240,14 +241,16 @@
     },
     "tab1fuc5cra9j": {
       "id": "tab1fuc5cra9j",
-      "index": 3,
+      "index": 2,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "行业报告",
+      "label": "美股研究",
       "widgetId": "fn6oqlxglo"
     },
     "tab2": {
       "id": "tab2",
       "index": 1,
+      "isDuplicateLabel": false,
       "isVisible": true,
       "label": "公司报告",
       "positioning": "vertical",
@@ -255,9 +258,10 @@
     },
     "tab4p0vshpol2": {
       "id": "tab4p0vshpol2",
-      "index": 2,
+      "index": 3,
+      "isDuplicateLabel": false,
       "isVisible": true,
-      "label": "期货报告",
+      "label": "行业报告",
       "widgetId": "stpqabjl0x"
     }
   },

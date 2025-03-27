@@ -22,6 +22,7 @@
     }
   },
   "columnOrder": [
+    "code",
     "TITLE",
     "F006V_YB003",
     "F007V_YB003",
@@ -36,7 +37,6 @@
     "hangye3",
     "hangye4",
     "SECNAME",
-    "code",
     "CTIME"
   ],
   "columnSizeMap": {
@@ -44,10 +44,15 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1742819367756,
+  "columnUpdatedAt": 1742870479962,
   "columnWidthMap": {
+    "DECLAREDATE": 114,
+    "F006V_YB003": 124,
+    "F007V_YB003": 87,
+    "F009N_YB003": 67,
     "TITLE": 419,
-    "code": 136
+    "code": 103,
+    "hangye2": 120
   },
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
@@ -79,9 +84,6 @@
   },
   "displayName": "Table",
   "dynamicBindingPathList": [
-    {
-      "key": "tableData"
-    },
     {
       "key": "derivedColumns.customColumn1.buttonLabel"
     },
@@ -141,6 +143,9 @@
     },
     {
       "key": "primaryColumns.CTIME.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -741,7 +746,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{SelectQuery.data}}",
+  "tableData": "{{SelectQueryCopyCopy.data}}",
   "textSize": "0.875rem",
   "topRow": 1,
   "totalRecordsCount": 0,

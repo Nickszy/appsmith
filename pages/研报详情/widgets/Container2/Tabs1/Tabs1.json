@@ -5,12 +5,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": 1,
-  "bottomRow": 67,
+  "bottomRow": 64,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 510,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -56,7 +56,7 @@
     },
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 510,
+      "bottomRow": 470,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": true,
       "detachFromLayout": true,
@@ -101,7 +101,7 @@
       "widgetName": "Canvas4"
     }
   ],
-  "defaultTab": "Tab 1",
+  "defaultTab": "摘要",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -129,8 +129,8 @@
   "mobileRightColumn": 7,
   "mobileTopRow": 20,
   "needsErrorInfo": false,
-  "originalBottomRow": 42,
-  "originalTopRow": 14,
+  "originalBottomRow": 64,
+  "originalTopRow": 13,
   "parentColumnSpace": 11.369384765625,
   "parentId": "kporru22n3",
   "parentRowSpace": 10,
@@ -157,7 +157,7 @@
       "widgetId": "bswuli6oa7"
     }
   },
-  "topRow": 12,
+  "topRow": 13,
   "type": "TABS_WIDGET",
   "version": 3,
   "widgetId": "xld5eehwkz",

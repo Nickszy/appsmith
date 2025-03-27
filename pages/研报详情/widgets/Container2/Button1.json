@@ -14,12 +14,15 @@
       "key": "borderRadius"
     },
     {
-      "key": "isDisabled"
+      "key": "isVisible"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "isDisabled"
+    },
+    {
+      "key": "isVisible"
     }
   ],
   "dynamicTriggerPathList": [
@@ -28,11 +31,11 @@
     }
   ],
   "isDefaultClickDisabled": true,
-  "isDisabled": "{{ oneyb.data[0]['F006V_YB003'] === '国泰君安' || oneyb.data[0]['F006V_YB003'] === '中信证券' ? true : false }}",
+  "isDisabled": "",
   "isLoading": false,
-  "isVisible": true,
+  "isVisible": "{{ oneyb.data[0]['F006V_YB003'] === '中信证券' ? true : false }}",
   "key": "6mpnqzap98",
-  "leftColumn": 55,
+  "leftColumn": 51,
   "minWidth": 120,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
@@ -40,8 +43,8 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('http://154.85.57.45/yb/' + oneyb.data[0][\"DECLAREDATE\"].replace(/-/g, \"\") + '/' + oneyb.data[0][\"F012V_YB003\"] + '.pdf?user=OmNweXM6Ojo6Ojo6Ojo2NTI4MDE6MTc0Mjc5MDc1MTo6Ojo4NjQwMDo6cGF6cV96bnR5MDAyMzE%3D&ticket=608ba05be83cc1e80ab75578691a2d00&source=cGF6cV96bnR5&fname=a0efbec2dd73d2544f62e2fda25d533e.pdf', {}, 'NEW_WINDOW');}}",
-  "originalBottomRow": 10,
-  "originalTopRow": 6,
+  "originalBottomRow": 8,
+  "originalTopRow": 4,
   "parentColumnSpace": 11.853759765625,
   "parentId": "kporru22n3",
   "parentRowSpace": 10,
