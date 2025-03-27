@@ -33,7 +33,7 @@
   "isDefaultClickDisabled": true,
   "isDisabled": "",
   "isLoading": false,
-  "isVisible": "{{ oneyb.data[0]['F006V_YB003'] === '中信证券' ? true : false }}",
+  "isVisible": "{{ oneyb.data[0]['F006V_YB003'] === '中信证券' ? false : true }}",
   "key": "6mpnqzap98",
   "leftColumn": 51,
   "minWidth": 120,
